@@ -1,0 +1,7 @@
+name: forin_vs_foreach_benchmark
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  benchmark_harness: any
