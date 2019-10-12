@@ -1,6 +1,6 @@
 mixin Helper {
   static Map<String, int> generateMap() {
-    return Map.fromIterable(List<int>.generate(10000, (int index) => index),
+    return Map.fromIterable(List<int>.generate(100000, (int index) => index),
         key: (item) => item.toString(),
         value: (item) => item);
   }
